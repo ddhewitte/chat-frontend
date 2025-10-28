@@ -11,7 +11,6 @@ function App() {
         cableUrl="ws://localhost:3001/cable"
         channel="ChatroomChannel"
         room="public"
-        username="ddhewitte"
       />
     </>
   )
