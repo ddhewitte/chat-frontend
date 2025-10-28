@@ -128,7 +128,7 @@ export default function Chat({
                   <li key={idx} className="flex justify-start">
                     <div className="relative max-w-xl px-4 py-2 text-gray-700 rounded shadow bg-white">
                       <span className="block">
-                        <strong>{m.user || m.message?.user}</strong> {m.content || m.message?.content}
+                        <strong>{m.user || m.message?.user}</strong> : {m.content || m.message?.content}
                       </span>
                     </div>
                   </li>
