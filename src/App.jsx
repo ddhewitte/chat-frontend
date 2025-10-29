@@ -5,10 +5,12 @@ import Chat from './components/Chat'
 
 function App() {
 
+  const SOCKET_ENDPOINT = import.meta.env.VITE_CABLE_URL_ENDPOINT;
+
   return (
     <>
       <Chat
-        cableUrl="ws://localhost:3001/cable"
+        cableUrl= {SOCKET_ENDPOINT}
         channel="ChatroomChannel"
         room="public"
       />
